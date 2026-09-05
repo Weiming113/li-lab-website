@@ -695,3 +695,24 @@ p:last-child { margin-bottom: 0; }
   html { scroll-behavior: auto; }
   .card, .btn { transition: none; }
 }
+
+/* News image modules — styles ready when HTML comments are uncommented */
+.news-figure {
+  margin: 1rem 0 0;
+  max-width: 640px;
+}
+.news-figure img {
+  width: 100%;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+.news-figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+.news-media-block {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
